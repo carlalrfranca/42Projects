@@ -36,7 +36,7 @@ Para implementar o minishell, criamos três loops principais : <br>
 [`dup`](https://www.geeksforgeeks.org/dup-dup2-linux-system-call/)<br>
 [`heredoc`](https://linuxize.com/post/bash-heredoc/)<br>
 [`hashtable`](https://www.geeksforgeeks.org/hashing-data-structure/)<br>
-[`environment variables`](https://opensource.com/article/19/8/what-are-environment-variables)<br>
+[`environ`](https://opensource.com/article/19/8/what-are-environment-variables)<br>
 
 ### Outline
 
