@@ -12,18 +12,18 @@
 
 NAME	=	philo
 
-CC		=	gcc
+CC	=	gcc
 
-RM		= 	rm -rf
+RM	= 	rm -rf
 
-INC		=	-I ./inc/
+INC	=	-I ./inc/
 
 FLAGS	=	-Werror -Wall -Wextra -g -pthread
 
 SRCS	= 	src/main.c \
-			src/utils.c \
-			src/finish.c \
-			src/routine.c \
+		src/utils.c \
+		src/finish.c \
+		src/routine.c \
 
 OBJS	=	$(SRCS:.c=.o)
 
