@@ -27,7 +27,7 @@ SRCS	= 	src/main.c \
 
 OBJS	=	$(SRCS:.c=.o)
 
-all:	$(NAME)
+all: $(NAME)
 
 $(NAME): $(OBJS)
 	@$(CC) $(FLAGS) $(INC) $(OBJS) -o $@
